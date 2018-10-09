@@ -43,8 +43,15 @@ module.exports.routes = {
   //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
+  'GET /osskey': 'osskey.index',
 
+  'POST /osskey/create': 'osskey/create',
+  'DELETE /osskey/destroy/:id': 'osskey/destroy',
+  'PATCH /osskey/update/:id': 'osskey/update',
 
+  'POST /ossPath/create': 'ossPath/create',
+  'DELETE /ossPath/destroy/:id': 'ossPath/destroy',
+  'PATCH /ossPath/update/:id': 'ossPath/update',
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
   //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗

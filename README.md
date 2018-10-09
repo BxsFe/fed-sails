@@ -1,27 +1,28 @@
-# fed-tool
+# 阿里云工具集
 
-a [Sails v1](https://sailsjs.com) application
+## 快速开始
 
+```bash
+npm install
 
-### Links
+node app.js
+```
 
-+ [Get started](https://sailsjs.com/get-started)
-+ [Sails framework documentation](https://sailsjs.com/documentation)
-+ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
-+ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
-+ [Community support options](https://sailsjs.com/support)
-+ [Professional / enterprise options](https://sailsjs.com/enterprise)
+## 介绍
 
+本项目旨在使用图像化交互界面的方式调用阿里云sdk，提供前端开发中的一些实用工具。
 
-### Version info
+## 功能特性
 
-This app was originally generated on Wed Oct 03 2018 22:10:02 GMT+0800 (CST) using Sails v1.0.2.
+- 配置阿里云osskey
+- 配置oss上传路径
+- 上传图片到oss
+- 上传资源文件到oss
 
-<!-- Internally, Sails used [`sails-generate@1.15.25`](https://github.com/balderdashy/sails-generate/tree/v1.15.25/lib/core-generators/new). -->
+## Todo
 
-
-
-<!--
-Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
--->
-
+- 使用阿里云api清除cdn缓存
+- 图片上传压缩
+- iconfont上传
+- 接口文档化
+- url地址管理
